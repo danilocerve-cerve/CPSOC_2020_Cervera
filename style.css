@@ -1,0 +1,30 @@
+/***************************** IMPORT DE CONTINGUTS: FONT ******************************/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/***************************** MEDIA QUERIES: RESPONSIVE ******************************/
+
+
+/***************************** INICI CSS ******************************/
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+    padding:0px;
+    margin:0px;
+}
+
+/***************************** IMATGES *************************************/
+.img_full{
+    width:100%;
+}
+
+/***************************** LINKS *************************************/
+a{
+    color:blue;
+    transition: color 2s;
+}
+a:hover{
+    color:red;
+}
