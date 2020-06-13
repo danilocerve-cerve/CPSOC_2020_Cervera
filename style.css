@@ -17,7 +17,7 @@ body{
 
 /***************************** IMATGES *************************************/
 .img_full{
-    width:100%;
+    width:35%;
 }
 
 /***************************** LINKS *************************************/
@@ -27,4 +27,32 @@ a{
 }
 a:hover{
     color:red;
+}
+
+table, th, td {
+    border: 1px solid #c2c2c2;
+    border-collapse: collapse;
+    text-align:center;
+    padding: 10px;
+}
+table {
+    width:100%;
+}
+.titol {
+    font-weight: bold;
+}
+.hora {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 12px;
+}
+.RA, .DV, .XV, .JT{
+    background-color: grey;
+
+}
+.RA1{
+    background-color: white;
+}
+.PG {
+    background-color: gray;
 }
